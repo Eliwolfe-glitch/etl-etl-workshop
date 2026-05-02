@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: tap_csv
+    schema: tap_csv
+    description: "Raw data loaded by Meltano tap-csv"
+    tables:
+      - name: raw_sales
+        description: "Raw sales orders loaded directly from CSV — unmodified"

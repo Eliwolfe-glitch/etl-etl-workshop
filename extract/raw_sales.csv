@@ -1,0 +1,21 @@
+order_id,customer_name,email,product,category,quantity,unit_price,order_date,region,status
+1001,Alice Johnson,alice.j@example.com,Wireless Headphones,Electronics,2,79.99,2026-01-05,North,completed
+1002,bob smith,bob.s@example.com,Running Shoes,Apparel,1,120.00,2026-01-07,South,completed
+1003,Carol White,,Yoga Mat,Sports,3,25.50,2026-01-07,West,completed
+1004,David Lee,david.l@example.com,Coffee Maker,Kitchen,1,89.95,2026-01-09,East,refunded
+1005,Eve Martinez,eve.m@example.com,Bluetooth Speaker,Electronics,1,49.99,2026-01-10,North,completed
+1006,Frank Brown,frank.b@example.com,Laptop Stand,Electronics,2,35.00,2026-01-12,West,completed
+1007,Grace Kim,grace.k@example.com,Water Bottle,Sports,4,18.99,2026-01-14,South,completed
+1008,Henry Patel,henry.p@example.com,Desk Lamp,Home,1,42.00,2026-01-14,East,pending
+1009,Iris Nguyen,iris.n@example.com,Noise Cancelling Earbuds,Electronics,1,199.00,2026-01-16,North,completed
+1010,James Wilson,,Running Shoes,Apparel,2,120.00,2026-01-18,West,completed
+1011,Karen Davis,karen.d@example.com,French Press,Kitchen,1,34.99,2026-01-20,South,completed
+1012,Liam Taylor,liam.t@example.com,Backpack,Apparel,1,65.00,2026-01-21,East,completed
+1013,Mia Anderson,mia.a@example.com,Yoga Mat,Sports,2,25.50,2026-01-22,North,refunded
+1014,Noah Thomas,noah.t@example.com,Smart Watch,Electronics,1,299.00,2026-01-23,West,completed
+1015,Olivia Jackson,olivia.j@example.com,Desk Lamp,Home,2,42.00,2026-01-25,South,completed
+1016,Peter Harris,peter.h@example.com,Coffee Maker,Kitchen,1,89.95,2026-01-26,East,pending
+1017,Quinn Martin,,Wireless Headphones,Electronics,3,79.99,2026-01-27,North,completed
+1018,Rachel Thompson,rachel.t@example.com,Water Bottle,Sports,5,18.99,2026-01-29,West,completed
+1019,Sam Garcia,sam.g@example.com,Laptop Stand,Electronics,1,35.00,2026-01-30,South,completed
+1020,Tina Robinson,tina.r@example.com,Backpack,Apparel,2,65.00,2026-02-01,East,completed

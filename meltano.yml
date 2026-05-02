@@ -1,0 +1,39 @@
+version: 1
+default_environment: dev
+project_id: 019dda03-ca85-7367-86e8-52405e08e486
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+    python: python3.11
+    config:
+      files:
+      - entity: raw_sales
+        path: extract/raw_sales.csv
+        keys:
+        - order_id
+  loaders:
+  - name: target-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-target-postgres
+    python: python3.11
+    config:
+      host: localhost
+      port: 5432
+      user: meltano
+      database: warehouse
+  transformers:
+  - name: dbt-postgres
+    variant: dbt-labs
+    pip_url: dbt-core~=1.3.0 dbt-postgres~=1.3.0
+    config:
+      host: localhost
+      port: 5432
+      user: meltano
+      dbname: warehouse
+      schema: analytics
