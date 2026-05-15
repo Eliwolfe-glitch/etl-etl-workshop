@@ -4,8 +4,6 @@ A hands-on data engineering project built to learn ETL and ELT pipeline patterns
 
 ## What's in here
 
-- **Python ETL pipeline** — Extract from CSV, transform in Python, load to SQLite
-- **Python ELT pipeline** — Extract from CSV, load raw to SQLite, transform with SQL
 - **Meltano + dbt + Postgres** — Production-style ELT using real data engineering tools
 
 ## Stack
